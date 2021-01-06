@@ -1,9 +1,10 @@
 # Unity_IInitializable
 
-IInitializable is an interface to make force initializable object.
+IInitializable is a simple interface to implement initialize logic.
 
 ## Import to Your Project
 
-You can import this asset from UnityPackage.
+Paste this code into ``PackageManager > Add package from git URL``.
 
-- [IInitializable.unitypackage](https://github.com/XJINE/Unity_IInitializable/blob/master/IInitializable.unitypackage)
+```
+https://github.com/XJINE/Unity_IInitializable.git?path=/Packages/IInitializable

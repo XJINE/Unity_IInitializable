@@ -1,0 +1,11 @@
+{
+  "name": "xjine.iinitializable",
+  "displayName": "IInitializable",
+  "version": "1.0.0",
+  "author": {
+    "name": "XJINE"
+  },
+  "type": "library",
+  "hideInEditor": false,
+  "description": "IInitializable is a simple interface to implement initialize logic."
+}
