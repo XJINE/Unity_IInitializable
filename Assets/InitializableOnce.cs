@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Initializable : MonoBehaviour, IInitializable
+public class InitializableOnce : MonoBehaviour, IInitializableOnce
 {
     #region Property
 

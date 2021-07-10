@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
-public class InitializableSample : MonoBehaviour
+public class InitializableOnceSample : MonoBehaviour
 {
     #region Field
 
-    public Initializable initializable;
+    public InitializableOnce initializableOnce;
 
     #endregion Field
 
@@ -13,13 +13,13 @@ public class InitializableSample : MonoBehaviour
     protected virtual void Awake()
     {
         DebugLog();
-        this.initializable.Initialize();
+        this.initializableOnce.Initialize();
         DebugLog();
     }
 
     protected void DebugLog()
     {
-        Debug.Log(this.initializable.IsInitialized ? "INITIALIZED" : "NOT INITIALIZED");
+        Debug.Log(this.initializableOnce.IsInitialized ? "INITIALIZED" : "NOT INITIALIZED");
     }
 
     #endregion Method
