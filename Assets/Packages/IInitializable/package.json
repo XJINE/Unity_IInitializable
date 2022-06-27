@@ -1,0 +1,18 @@
+{
+    "name"       : "com.xjine.iinitializable",
+    "displayName": "IInitializable", 
+    "version"    : "1.0.1",
+    "unity"      : "2021.3",
+    "description": "IInitializable is a simple interface to implement initialize logic.",
+    "author"     :
+    {
+        "name": "XJINE",
+        "url" : "https://github.com/XJINE"
+    },
+    "keywords":
+    [
+    ],
+    "dependencies":
+    {
+    }
+}

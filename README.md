@@ -2,6 +2,10 @@
 
 IInitializable is a simple interface to implement initialize logic.
 
-## Import to Your Project
+## Importing
 
-Just add a '.unitypackage'.
+You can use Package Manager or import it directly.
+
+```
+https://github.com/XJINE/Unity_IInitializable.git?path=Assets/Packages/IInitializable
+```
